@@ -1,48 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<link
+			rel="preconnect"
+			href="https://fonts.googleapis.com"
+		/>
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin
+		/>
+		<link
+			href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;600&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="style.css"
+		/>
+		<title>Portfolio</title>
+	</head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <title>Portfolio</title>
-</head>
+	<body>
+		<div id="minicircle"></div>
+		<div id="main">
+			<div id="hero">
+				<div id="nav">
+					<a href="#">Bug Author</a>
+					<h4>Menu+</h4>
+				</div>
 
-<body>
-  <div id="main">
-    <div id="hero">
-      <div id="nav">
-        <a href="#">Bug Author</a>
-        <h4>Menu+</h4>
-      </div>
+				<div id="heading">
+					<h1>Software</h1>
+					<div class="heading-flex">
+						<h2>Engineer</h2>
+						<h3>Full Stack | AI</h3>
+					</div>
+				</div>
 
-      <div id="heading">
-        <h1>Software</h1>
-        <div id="block-text">
-          <h1 id="second-heading">Engineer</h1>
-          <h5 >Remote</h5>
-        </div>
-      </div>
+				<div id="sub-headings">
+					<h5>Available for freelance</h5>
+					<h5>work from Aug 01</h5>
+				</div>
 
-      <div id="sub-headings">
-        <h5>Available for freelance</h5>
-        <h5>work from Aug 01</h5>
-      </div>
+				<div id="hero-footer">
+					<a href="#"
+						>Working at EngineRay
+						<i class="ri-arrow-right-up-line"></i
+					></a>
+					<a href="#"
+						>Open Source Projects<i
+							class="ri-arrow-right-up-line"
+						></i
+					></a>
+					<div id="icon-set">
+						<div class="circle-icon">
+							<i class="ri-arrow-down-line"></i>
+						</div>
+						<div class="circle-icon">
+							<i class="ri-arrow-down-line"></i>
+						</div>
+					</div>
+				</div>
+			</div>
 
-      <div id="hero-footer">
-        <a href="#">previously worked at Open Source <i class="ri-arrow-right-up-line"></i></a>
-        <a href="#">some more text <i class="ri-arrow-right-up-line"></i></a>
-        <div id="icon-set">
-            <div class="circle-icon"><i class="ri-arrow-down-line"></i></div>
-            <div class="circle-icon"><i class="ri-arrow-down-line"></i></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</body>
+			<div id="second">
+				<div class="elem">
+					<img
+						src="/portfolio-vanilla/quote-bee.png"
+						alt=""
+					/>
+					<h1>Quote Bee</h1>
+					<h5>2022</h5>
+				</div>
 
+				<div class="elem">
+					<img
+						src=""
+						alt=""
+					/>
+					<h1>Feed Blast</h1>
+					<h5>2022</h5>
+				</div>
+
+				<div class="elem">
+					<img
+						src="/portfolio-vanilla/digital-stories.png"
+						alt=""
+					/>
+					<h1>Digital Stories</h1>
+					<h5>2023</h5>
+				</div>
+			</div>
+
+			<div id="about">
+				<img
+					src="/portfolio-vanilla/about.jpeg"
+					alt="about"
+				/>
+				<div id="about-text">
+					<h5>(About Me)</h5>
+					<p>
+						I'm Abdullah, a Software Engineer from 🇵🇰. Specializing
+						in React and MERN stack, I build solutions at EngineRay
+						and have crafted various freelance projects. Passionate
+						about tech that inspires. Catch me on GitHub!"
+					</p>
+				</div>
+			</div>
+
+			<div id="subscribe">
+				<h5>(forgot to mention)</h5>
+				<h3>
+					visit my blog
+					<a
+						href="https://hashnode.com"
+						target="_blank"
+					>
+						<i class="ri-arrow-right-up-line"></i>
+					</a>
+				</h3>
+			</div>
+
+			<div id="footer">
+				<div id="footerleft">
+					<h5>2023 &copy;</h5>
+					<h5>0:05 AM EST</h5>
+				</div>
+				<div id="footerright">
+					<a href="#">GitHub</a><a href="#">Stack Overflow</a>
+				</div>
+			</div>
+		</div>
+
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"
+			integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+		<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+		<script src="script.js"></script>
+	</body>
 </html>
